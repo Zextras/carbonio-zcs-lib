@@ -239,16 +239,16 @@ sub stage_core_lib($) {
         "$stage_base_dir/opt/zextras/lib/jars/jsr181-api-1.0-MR1.jar" );
     cpy_file( "build/dist/jsr311-api-1.1.1.jar",
         "$stage_base_dir/opt/zextras/lib/jars/jsr311-api-1.1.1.jar" );
-    cpy_file( "build/dist/junixsocket-common-2.3.2.jar",
-        "$stage_base_dir/opt/zextras/lib/jars/junixsocket-common-2.3.2.jar" );
-    cpy_file( "build/dist/junixsocket-demo-2.3.2.jar",
-        "$stage_base_dir/opt/zextras/lib/jars/junixsocket-demo-2.3.2.jar" );
-    cpy_file( "build/dist/junixsocket-mysql-2.3.2.jar",
-        "$stage_base_dir/opt/zextras/lib/jars/junixsocket-mysql-2.3.2.jar" );
-    cpy_file( "build/dist/junixsocket-rmi-2.3.2.jar",
-        "$stage_base_dir/opt/zextras/lib/jars/junixsocket-rmi-2.3.2.jar" );
-    cpy_file( "build/dist/junixsocket-native-common-2.3.2.jar",
-"$stage_base_dir/opt/zextras/lib/jars/junixsocket-native-common-2.3.2.jar"
+    cpy_file( "build/dist/junixsocket-common-2.4.0.jar",
+        "$stage_base_dir/opt/zextras/lib/jars/junixsocket-common-2.4.0.jar" );
+    cpy_file( "build/dist/junixsocket-demo-2.4.0.jar",
+        "$stage_base_dir/opt/zextras/lib/jars/junixsocket-demo-2.4.0.jar" );
+    cpy_file( "build/dist/junixsocket-mysql-2.4.0.jar",
+        "$stage_base_dir/opt/zextras/lib/jars/junixsocket-mysql-2.4.0.jar" );
+    cpy_file( "build/dist/junixsocket-rmi-2.4.0.jar",
+        "$stage_base_dir/opt/zextras/lib/jars/junixsocket-rmi-2.4.0.jar" );
+    cpy_file( "build/dist/junixsocket-native-common-2.4.0.jar",
+"$stage_base_dir/opt/zextras/lib/jars/junixsocket-native-common-2.4.0.jar"
     );
     cpy_file( "build/dist/native-lib-loader-2.3.5.jar",
         "$stage_base_dir/opt/zextras/lib/jars/native-lib-loader-2.3.5.jar" );
@@ -280,6 +280,8 @@ sub stage_core_lib($) {
         "$stage_base_dir/opt/zextras/lib/jars/nekohtml-1.9.22.jar" );
     cpy_file( "build/dist/oauth-20100527.jar",
         "$stage_base_dir/opt/zextras/lib/jars/oauth-20100527.jar" );
+    cpy_file( "build/dist/oauth-provider-20100527.jar",
+        "$stage_base_dir/opt/zextras/lib/jars/oauth-provider-20100527.jar" );
     cpy_file( "build/dist/antisamy-1.5.13.jar",
         "$stage_base_dir/opt/zextras/lib/jars/antisamy-1.5.13.jar" );
     cpy_file( "build/dist/batik-css-1.7.jar",
@@ -471,17 +473,17 @@ sub stage_store_lib($) {
         "$stage_base_dir/opt/zextras/jetty_base/common/lib/json-20090211.jar" );
     cpy_file( "build/dist/jtnef-1.9.0.jar",
         "$stage_base_dir/opt/zextras/jetty_base/common/lib/jtnef-1.9.0.jar" );
-    cpy_file( "build/dist/junixsocket-common-2.3.2.jar",
-"$stage_base_dir/opt/zextras/jetty_base/common/lib/junixsocket-common-2.3.2.jar"
+    cpy_file( "build/dist/junixsocket-common-2.4.0.jar",
+"$stage_base_dir/opt/zextras/jetty_base/common/lib/junixsocket-common-2.4.0.jar"
     );
-    cpy_file( "build/dist/junixsocket-demo-2.3.2.jar",
-"$stage_base_dir/opt/zextras/jetty_base/common/lib/junixsocket-demo-2.3.2.jar"
+    cpy_file( "build/dist/junixsocket-demo-2.4.0.jar",
+"$stage_base_dir/opt/zextras/jetty_base/common/lib/junixsocket-demo-2.4.0.jar"
     );
-    cpy_file( "build/dist/junixsocket-mysql-2.3.2.jar",
-"$stage_base_dir/opt/zextras/jetty_base/common/lib/junixsocket-mysql-2.3.2.jar"
+    cpy_file( "build/dist/junixsocket-mysql-2.4.0.jar",
+"$stage_base_dir/opt/zextras/jetty_base/common/lib/junixsocket-mysql-2.4.0.jar"
     );
-    cpy_file( "build/dist/junixsocket-rmi-2.3.2.jar",
-"$stage_base_dir/opt/zextras/jetty_base/common/lib/junixsocket-rmi-2.3.2.jar"
+    cpy_file( "build/dist/junixsocket-rmi-2.4.0.jar",
+"$stage_base_dir/opt/zextras/jetty_base/common/lib/junixsocket-rmi-2.4.0.jar"
     );
     cpy_file( "build/dist/jzlib-1.0.7.jar",
         "$stage_base_dir/opt/zextras/jetty_base/common/lib/jzlib-1.0.7.jar" );
@@ -496,6 +498,9 @@ sub stage_store_lib($) {
     );
     cpy_file( "build/dist/oauth-20100527.jar",
         "$stage_base_dir/opt/zextras/jetty_base/common/lib/oauth-20100527.jar"
+    );
+    cpy_file( "build/dist/oauth-provider-20100527.jar",
+"$stage_base_dir/opt/zextras/jetty_base/common/lib/oauth-provider-20100527.jar"
     );
     cpy_file( "build/dist/spymemcached-2.12.1.jar",
 "$stage_base_dir/opt/zextras/jetty_base/common/lib/spymemcached-2.12.1.jar"

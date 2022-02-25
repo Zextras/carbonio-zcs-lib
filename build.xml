@@ -17,7 +17,7 @@
     <ant antfile="../ant-1.7.0-ziputil-patched/build.xml" inheritAll="false" target="jar" />
     <ant antfile="../ant-tar-patched/build.xml" inheritAll="false" target="jar" />
     <ant antfile="../ical4j-0.9.16-patched/build.xml" inheritAll="false" target="package" />
-    <move file="../ical4j-0.9.16-patched/build/ical4j.jar" tofile="../ical4j-0.9.16-patched/build/ical4j-0.9.16-patched.jar"/>
+    <move file="../ical4j-0.9.16-patched/build/ical4j.jar" tofile="../ical4j-0.9.16-patched/build/ical4j-0.9.16-patched.jar" />
     <copy todir="${dist.dir}">
       <fileset dir="../ant-1.7.0-ziputil-patched/build" includes="*.jar" />
       <fileset dir="../ant-tar-patched/build" includes="*.jar" />
@@ -34,17 +34,16 @@
     </copy>
   </target>
 
-<!-- Property added to have the functionality of passing version as an argument  -->
+  <!-- Property added to have the functionality of passing version as an argument  -->
   <property name="zmzcslibs.ext.patch.revision" value="1" />
-  <property name="zmzcslibs.ext.patch.version"
-      value="${zimbra.buildinfo.majorversion}.${zimbra.buildinfo.minorversion}.${zimbra.buildinfo.microversion}"/>
+  <property name="zmzcslibs.ext.patch.version" value="${zimbra.buildinfo.majorversion}.${zimbra.buildinfo.minorversion}.${zimbra.buildinfo.microversion}" />
 
-   <target name="pkg" depends="clean,dist">
-    <exec dir="." executable="./pkg-builder.pl" failonerror="true" >
-    <arg value="-v"/>
-    <arg value="${zmzcslibs.ext.patch.version}"/>
-    <arg value="-r"/>
-    <arg value="${zmzcslibs.ext.patch.revision}"/>
+  <target name="pkg" depends="clean,dist">
+    <exec dir="." executable="./pkg-builder.pl" failonerror="true">
+      <arg value="-v" />
+      <arg value="${zmzcslibs.ext.patch.version}" />
+      <arg value="-r" />
+      <arg value="${zmzcslibs.ext.patch.revision}" />
     </exec>
   </target>
 
