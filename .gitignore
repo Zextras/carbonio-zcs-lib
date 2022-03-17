@@ -3,3 +3,8 @@
 # SPDX-License-Identifier: CC0-1.0
 .DS_Store
 build
+gradle.properties
+.gradle
+gradle*
+gradlew*
+.idea

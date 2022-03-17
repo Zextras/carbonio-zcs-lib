@@ -1,0 +1,14 @@
+{
+    "name": "An open-source, community-driven email server",
+    "Description": "Zextras Carbonio libs",
+    "build_dir": "/tmp/",
+    "output": "artifacts",
+    "Projects": [
+        {
+            "name": "appserver-store-libs"
+        },
+        {
+            "name": "common-core-libs"
+        }
+    ]
+}

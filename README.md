@@ -9,11 +9,11 @@
 
 ## How to build
 
-Since we are dealing with an Ant project, in order to build it you
+Since we are dealing with an Gradle project, in order to build it you
 have to give the following command:
 
 ```sh
-ant jar
+gradle getLibs
 ```
 
 This will generate a `jar` file under the `build` directory.
