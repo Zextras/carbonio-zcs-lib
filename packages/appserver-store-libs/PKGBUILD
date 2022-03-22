@@ -4,7 +4,7 @@ targets=(
 )
 pkgname="carbonio-appserver-store-libs"
 pkgver="4.0.6"
-pkgrel="1"
+pkgrel="2"
 pkgdesc="Replace Carbonio store libs"
 pkgdesclong=(
   "Replace Carbonio store libs"
@@ -125,6 +125,8 @@ package() {
     "${pkgdir}/opt/zextras/jetty_base/common/lib/jzlib-1.0.7.jar"
   install -D build/dist/libidn-1.24.jar \
     "${pkgdir}/opt/zextras/jetty_base/common/lib/libidn-1.24.jar"
+  install -D build/dist/log4j-1.2.16.jar \
+    "${pkgdir}/opt/zextras/jetty_base/common/lib/log4j-1.2.16.jar"
   install -D build/dist/mail-1.4.7.jar \
     "${pkgdir}/opt/zextras/jetty_base/common/lib/mail-1.4.7.jar"
   install -D build/dist/mariadb-java-client-2.7.3.jar \
