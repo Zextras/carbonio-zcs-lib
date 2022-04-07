@@ -102,17 +102,17 @@ package() {
     "${pkgdir}/opt/zextras/lib/jars/ical4j-0.9.16-patched.jar"
   install -D build/dist/icu4j-4.8.1.1.jar \
     "${pkgdir}/opt/zextras/lib/jars/icu4j-4.8.1.1.jar"
-  install -D build/dist/jackson-core-2.10.1.jar \
-    "${pkgdir}/opt/zextras/lib/jars/jackson-core-2.10.1.jar"
-  install -D build/dist/jackson-annotations-2.10.1.jar \
-    "${pkgdir}/opt/zextras/lib/jars/jackson-annotations-2.10.1.jar"
-  install -D build/dist/jackson-databind-2.10.1.jar \
-    "${pkgdir}/opt/zextras/lib/jars/jackson-databind-2.10.1.jar"
-  install -D build/dist/jackson-dataformat-smile-2.9.2.jar \
-    "${pkgdir}/opt/zextras/lib/jars/jackson-dataformat-smile-2.9.2.jar"
+  install -D build/dist/jackson-core-2.13.1.jar \
+    "${pkgdir}/opt/zextras/lib/jars/jackson-core-2.13.1.jar"
+  install -D build/dist/jackson-annotations-2.13.1.jar \
+    "${pkgdir}/opt/zextras/lib/jars/jackson-annotations-2.13.1.jar"
+  install -D build/dist/jackson-databind-2.13.1.jar \
+    "${pkgdir}/opt/zextras/lib/jars/jackson-databind-2.13.1.jar"
+  install -D build/dist/jackson-dataformat-smile-2.13.1.jar \
+    "${pkgdir}/opt/zextras/lib/jars/jackson-dataformat-smile-2.13.1.jar"
 
-  install -D build/dist/jackson-module-jaxb-annotations-2.8.9.jar \
-    "${pkgdir}/opt/zextras/lib/jars/jackson-module-jaxb-annotations-2.8.9.jar"
+  install -D build/dist/jackson-module-jaxb-annotations-2.13.1.jar \
+    "${pkgdir}/opt/zextras/lib/jars/jackson-module-jaxb-annotations-2.13.1.jar"
 
   install -D build/dist/jamm-0.2.5.jar \
     "${pkgdir}/opt/zextras/lib/jars/jamm-0.2.5.jar"
