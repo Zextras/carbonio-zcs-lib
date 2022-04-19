@@ -77,8 +77,8 @@ package() {
     "${pkgdir}/opt/zextras/jetty_base/common/lib/guava-28.1-jre.jar"
   install -D build/dist/httpasyncclient-4.1.4.jar \
     "${pkgdir}/opt/zextras/jetty_base/common/lib/httpasyncclient-4.1.4.jar"
-  install -D build/dist/httpclient-4.5.8.jar \
-    "${pkgdir}/opt/zextras/jetty_base/common/lib/httpclient-4.5.8.jar"
+  install -D build/dist/httpclient-4.5.13.jar \
+    "${pkgdir}/opt/zextras/jetty_base/common/lib/httpclient-4.5.13.jar"
   install -D build/dist/httpcore-4.4.11.jar \
     "${pkgdir}/opt/zextras/jetty_base/common/lib/httpcore-4.4.11.jar"
   install -D build/dist/httpcore-nio-4.4.11.jar \
