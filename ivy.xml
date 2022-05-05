@@ -106,7 +106,7 @@ SPDX-License-Identifier: AGPL-3.0-only
     <dependency org="org.apache.cxf" name="cxf-rt-transports-http" rev="3.3.4" />
     <dependency org="org.apache.helix" name="helix-core" rev="0.6.1-incubating" />
     <dependency org="org.apache.httpcomponents" name="httpasyncclient" rev="4.1.4" />
-    <dependency org="org.apache.httpcomponents" name="httpclient" rev="4.5.8" />
+    <dependency org="org.apache.httpcomponents" name="httpclient" rev="4.5.13" />
     <dependency org="org.apache.httpcomponents" name="httpcore" rev="4.4.11" />
     <dependency org="org.apache.httpcomponents" name="httpcore-nio" rev="4.4.11" />
     <dependency org="org.apache.httpcomponents" name="httpmime" rev="4.3.1" />

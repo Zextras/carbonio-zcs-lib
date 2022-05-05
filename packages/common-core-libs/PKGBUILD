@@ -90,8 +90,8 @@ package() {
 
   install -D build/dist/httpasyncclient-4.1.4.jar \
     "${pkgdir}/opt/zextras/lib/jars/httpasyncclient-4.1.4.jar"
-  install -D build/dist/httpclient-4.5.8.jar \
-    "${pkgdir}/opt/zextras/lib/jars/httpclient-4.5.8.jar"
+  install -D build/dist/httpclient-4.5.13.jar \
+    "${pkgdir}/opt/zextras/lib/jars/httpclient-4.5.13.jar"
   install -D build/dist/httpcore-4.4.11.jar \
     "${pkgdir}/opt/zextras/lib/jars/httpcore-4.4.11.jar"
   install -D build/dist/httpcore-nio-4.4.11.jar \
