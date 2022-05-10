@@ -3,8 +3,8 @@ targets=(
   "ubuntu"
 )
 pkgname="carbonio-appserver-store-libs"
-pkgver="4.0.6"
-pkgrel="2"
+pkgver="4.0.7"
+pkgrel="1"
 pkgdesc="Replace Carbonio store libs"
 pkgdesclong=(
   "Replace Carbonio store libs"
