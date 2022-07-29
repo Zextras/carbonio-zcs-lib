@@ -280,8 +280,8 @@ package() {
     "${pkgdir}/opt/zextras/lib/jars/resolver-20050927.jar"
   install -D build/dist/javax.annotation-api-1.2.jar \
     "${pkgdir}/opt/zextras/lib/jars/javax.annotation-api-1.2.jar"
-  install -D build/dist/apache-jsp-9.4.44.v20210927.jar \
-    "${pkgdir}/opt/zextras/lib/jars/apache-jsp-9.4.44.v20210927.jar"
+  install -D build/dist/apache-jsp-9.4.48.v20220622.jar \
+    "${pkgdir}/opt/zextras/lib/jars/apache-jsp-9.4.48.v20220622.jar"
 
   install -D build/dist/UserAgentUtils-1.21.jar \
     "${pkgdir}/opt/zextras/lib/jars/UserAgentUtils-1.21.jar"
